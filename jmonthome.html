@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+
+
+    <div class="background-image-1 backgroundImage">
+        <nav class="navbar" id="navbar">
+
+            <img src="imgs/ISUlogo.png" width="50px;" height="50px" alt="" class="ISUlogo">
+
+            <a href="#Contact">Contact</a>
+            <a href="#Experience">Experience</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Skills">Skills</a>
+            <a href="#About">About</a>
+            <a href="#Home" class="active">Home</a>
+
+
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="color:white;">
+                <i class="fas fa-bars"></i>
+            </a>
+
+        </nav>
+
+        <!-- HEADER IMAGE -->
+        <div class="imgOverlay">
+            <table>
+                <tbody>
+                    <tr style="text-align:center; margin:auto;">
+                        <div style="border: 2px solid #FBFEF9; border-radius: 50%; height: 210px; width: 210px; text-align:center;margin:auto;">
+
+
+                            <img src="imgs/proPic.png" class="profilePic">
+                        </div>
+
+                    </tr>
+                    <tr style="font-weight:bold; line-height:0px;">
+                        <h1 style="font-size: 4vw;"> Hi! I'm Jake Montgomery</h1>
+                    </tr>
+                    <tr>
+                        <h1 style="font-size: 2vw; line-height:0px;"> Software Engineering Student</h1>
+                    </tr>
+                    <tr style="text-align:center; margin:auto; ">
+                        <div class="socialBtns">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-spotify"></i>
+                        </div>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+
+    </div>
+    <!--END HEADER-->
+
+    <!--ABOUT ME CONTAINER-->
+    <div id="About" class="aboutMeContainer scrollspy">
+
+
+        <h1> About Me</h1>
+        <h3> Software Engineering Student</h3>
+        <p> Hi, thanks for visiting my site! I'm Jake Montgomery, a software engineering student at Iowa State
+            University.
+
+        </p>
+        <input type="button" class="aboutMeBtn" value="Contact Me">
+        <input type="button" class="aboutMeBtn" value="Resume">
+
+    </div>
+
+    <div id="Skills" class="background-image-2 backgroundImage scrollspy">
+
+        <div class="skillsOverlay">
+
+
+            <table>
+                <tbody>
+                    <tr>
+                        <h1 style="margin-top: 80px;"> Skills</h1>
+                    </tr>
+                    <tr>
+                        <div style="display:inline-block; padding:50px;">
+                            <div class="skillsImageDiv">
+                                <img src="imgs/js.png" alt="" class="skillsImage">
+                                <img src="imgs/java.jpg" alt="" class="skillsImage">
+                                <img src="imgs/c++.png" alt="" class="skillsImage">
+                                <img src="imgs/html.png" alt="" class="skillsImage">
+                                <img src="imgs/css3.png" alt="" class="skillsImage">
+                                <img src="imgs/python.png" alt="" class="skillsImage">
+                            </div>
+                            <p>Programming Languages</p>
+                        </div>
+                        <div style="display:inline-block;padding: 50px;">
+
+                            <div class="skillsImageDiv">
+                                <img src="imgs/spring.png" alt="" class="skillsImage">
+                                <img src="imgs/nodejs.jpeg" alt="" class="skillsImage">
+                                <img src="imgs/laravel.jpeg" alt="" class="skillsImage">
+                                <img src="imgs/ionic.png" alt="" class="skillsImage">
+                                <img src="imgs/angular.png" alt="" class="skillsImage">
+                                <img src="imgs/git.png" alt="" class="skillsImage">
+
+                            </div>
+                            <p>Frameworks</p>
+
+                        </div>
+                        <div style="display:inline-block;padding: 50px;">
+
+                            <div class="skillsImageDiv">
+                                <img src="imgs/swift.png" alt="" class="skillsImage">
+                                <img src="imgs/android.jpeg" alt="" class="skillsImage">
+
+
+                            </div>
+                            <p>Mobile App Development</p>
+
+                        </div>
+                        <div style="display:inline-block; padding: 50px;">
+
+                            <div class="skillsImageDiv">
+                                <img src="imgs/sql.png" alt="" class="skillsImage">
+                                <img src="imgs/firebase.png" alt="" class="skillsImage">
+                                <img src="imgs/mongo.jpg" alt="" class="skillsImage">
+
+
+                            </div>
+                            <p>Database Management</p>
+
+                        </div>
+
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+        </div>
+    </div>
+
+    <div id="Projects" class="projectsContainer scrollspy">
+
+
+        <h1>Projects</h1>
+        <h5> Software projects that I have led and/or participated in while in school or at work. </h5>
+
+
+
+        <div style="margin-top: 50px; text-align:center;">
+            <div style="display:inline-block;">
+                <img id="309Image" src="imgs/chat.jpg" alt="" class="project">
+                <h4>COM S 309 Project: Chitchatter</h4>
+            </div>
+            <div style="display:inline-block;">
+                <img id="thriventImage" src="imgs/chart.jpg" alt="" class="project">
+                <h4>Intern Project: Document Dashboard</h4>
+            </div>
+            <div style="display:inline-block;">
+                <img id="ccImage" src="imgs/coffee.jpg" alt="" class="project">
+                <h4>My Club: Building the Website</h4>
+            </div>
+
+        </div>
+
+        
+
+
+
+
+    </div>
+
+    <div id="SeniorDesign" class="SeniorDesignContainer">
+            <h1>Senior Design Project</h1>
+            <h5> GoMe! A Life Improvement App </h5>
+    
+
+                
+        
+    </div>
+
+
+    <div id="Experience" class="background-image-3 backgroundImage scrollspy">
+
+            <div class="expOverlay">
+    
+    
+                <table>
+                    <tbody>
+                        <tr>
+                            <h1 style="margin-top: 80px;"> Professional Experience</h1>
+                        </tr>
+                        <tr>
+                            <div class="expText">
+                                
+                                <h2 style="display:inline-block;">Thrivent Financial</h2> &nbsp;
+                                <img src="imgs/thrivent.jpeg" alt="" class="expImage">
+                                <h3 style="line-height: 5px;">Application Engineering Intern</h3>
+                                <h4 style="line-height: 5px;">Minneapolis, Minnesota, USA</h4>
+                                <h4 style="line-height: 5px;">May 2018 - August 2018</h4>
+
+                                <ul>
+                                        <li>Rewrote 3 web applications and created user interface designs by meeting with business analysts to collect requirements</li>
+                                        <li>Upgraded 6 applications to a new server by configuring files for build and deploy</li>
+                                        <li>Solved full-stack web development (Spring MVC - Java) problems in an agile environment and demonstrated  communication expertise </li>
+                                      </ul>
+                               
+                            </div>
+                            <div class="expText" >
+                                    <h2 style="display:inline-block;">Thrivent Financial</h2> &nbsp;
+                                    <img src="imgs/thrivent.jpeg" alt="" class="expImage">
+                                    <h3 style="line-height: 5px;">Application Engineering Intern</h3>
+                                    <h4 style="line-height: 5px;">Minneapolis, Minnesota, USA</h4>
+                                    <h4 style="line-height: 5px;">May 2018 - August 2018</h4>
+                                    <ul>
+                                            <li>Rewrote 3 web applications and created user interface designs by meeting with business analysts to collect requirements</li>
+                                            <li>Upgraded 6 applications to a new server by configuring files for build and deploy</li>
+                                            <li>Solved full-stack web development (Spring MVC - Java) problems in an agile environment and demonstrated  communication expertise </li>
+                                          </ul>
+                                </div>
+                            
+                            
+                            
+    
+                        </tr>
+                    </tbody>
+                </table>
+    
+    
+    
+            </div>
+        </div>
+
+        <div id="Other" class="otherContainer">
+
+
+                <h1>Outside of Class</h1>
+                <h5> When I'm not busy doing hours of schoolwork, I spend time organizing events for my club, the Coffee Club, 
+                    which I founded 2 years ago.  Read more about it below! I also love making electronic music and have songs 
+                    published on Spotify and other popular music streaming platforms.  </h5>
+        
+        
+        
+                <div style="margin-top: 50px; text-align:center;">
+                    <div style="display:inline-block;">
+                        <div class="ccEtc">
+                            
+                        </div>
+
+                        <h4>Coffee Club!</h4>
+                    </div>
+                    <div style="display:inline-block;">
+                        <div class="spotifyEtc">
+                            
+                        </div>
+                        <h4>Spotify</h4>
+                    </div>
+                    <div style="display:inline-block;">
+                            <div class="soundcloudEtc">
+                                    
+                            </div>
+                        <h4>SoundCloud</h4>
+                    </div>
+        
+                </div>
+  
+        
+            </div>
+
+            <div id="Contact" class="contactContainer">
+
+                <h1>Contact Me</h1>
+                
+  
+        
+            </div>
+
+            <div id="Footer" class="footerContainer">
+
+                <table>
+                    <tbody>
+                        <tr style="text-align:center; margin:auto;">
+                            <div style="border: 2px solid #FBFEF9; border-radius: 50%; height: 110px; width: 110px; text-align:center;margin:auto;">
+    
+    
+                                <img src="imgs/proPic.png"   class="footerPic">
+                            </div>
+    
+                        </tr>
+                        
+                        
+                        <tr style="text-align:center; margin:auto; ">
+                            <div style="display:inline-block;">
+                                
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-linkedin-in"></i>
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-spotify"></i>
+                               
+                            </div>
+                            
+                                
+                            
+                        </tr>
+                    </tbody>
+                </table>
+                
+  
+        
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- The Modal -->
+    <div id="projectModal1" class="projectModal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+
+            <span class="close">&times;</span>
+            <table>
+                <tbody>
+                    <tr>
+                        <h2>Computer Science 309 Project: ChitChatter</h2>
+                        <hr>
+
+
+                    </tr>
+                    <tr>
+                        <h4 style=" display: inline-block;">My Role: </h4>
+                        <p style=" display: inline-block;"> &nbsp
+                            Designer and Developer</p>
+                    </tr>
+                    <tr>
+                        <h4>Description: </h4>
+                    </tr>
+                    <tr>
+                        <h4>Lessons Leard:</h4>
+                    </tr>
+                    <tr>
+                        <h4>Resources Used:</h4>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+    </div>
+
+
+    <script>
+        console.log($(window).scrollTop());
+        function myFunction() {
+            var x = document.getElementById("navbar");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+        /*if ($(window).scrollTop() > 60) {
+            $('.banner h2').css('display', 'none');
+            $('.banner .info').css('display', 'block');
+        } else {
+            $('.banner h2').css('display', 'block');
+            $('.banner .info').css('display', 'none');
+        }*/
+
+
+
+
+
+        $(window).bind('scroll', function () {
+            var currentTop = $(window).scrollTop();
+            var elems = $('.scrollspy');
+            elems.each(function (index) {
+                var elemTop = $(this).offset().top;
+                var elemBottom = elemTop + $(this).height();
+                if (currentTop >= elemTop && currentTop <= elemBottom) {
+                    var id = $(this).attr('id');
+                    var navElem = $('a[href="#' + id + '"]');
+                    navElem.parent().addClass('active').siblings().removeClass('active');
+                }
+            })
+        });
+
+
+
+
+
+
+
+        // Get the modal
+        var modal = document.getElementById('projectModal1');
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("309Image");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
